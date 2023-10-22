@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/swimming-pool/static/css/main.073c9b0a.css",
+    "main.js": "/swimming-pool/static/js/main.70b8d699.js",
+    "static/js/787.c9c9dae4.chunk.js": "/swimming-pool/static/js/787.c9c9dae4.chunk.js",
+    "static/media/logo.svg": "/swimming-pool/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/swimming-pool/index.html",
+    "main.073c9b0a.css.map": "/swimming-pool/static/css/main.073c9b0a.css.map",
+    "main.70b8d699.js.map": "/swimming-pool/static/js/main.70b8d699.js.map",
+    "787.c9c9dae4.chunk.js.map": "/swimming-pool/static/js/787.c9c9dae4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.70b8d699.js"
+  ]
+}
