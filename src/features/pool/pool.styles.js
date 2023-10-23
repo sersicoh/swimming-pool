@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const PoolFrame = styled.div`
   margin: 100px 20px 0;

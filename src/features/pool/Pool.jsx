@@ -1,18 +1,21 @@
+import { useDispatch, useSelector } from "react-redux";
 import { Lane } from "../../common/lane/Lane";
 import { PoolFrame, PoolLanes } from "./pool.styles";
+import { removeTask, selectTaskByQuery } from "../../services/tasksSlice";
 
 export const Pool = () => {
 
-    const descrition = [
-        'first', 'second', 'third', 'fourth', 'fifth'
-    ];
+    const swimmer = undefined;
+    const tasks = useSelector(state => selectTaskByQuery(state));
+
+    const dispatch = useDispatch();
 
     return (
         <PoolFrame>
             <PoolLanes>
-                {descrition.map((item) =>
-                    <Lane key={item}>
-                        {item}
+                {tasks.map((task) =>
+                    <Lane key={task.content} index={task.content} onClick={() => dispatch(removeTask(task.id))}>
+                        {swimmer ? swimmer : null}
                     </Lane>
                 )}
             </PoolLanes>
