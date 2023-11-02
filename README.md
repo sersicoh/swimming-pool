@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+## Unfinished recruitment project
+
+A project I started as part of the recruitment process for one of the companies. It's just beginning, so you probably won't find anything interesting here.
 
 [Demo](https://sersicoh.github.io/swimming-pool/)
 
